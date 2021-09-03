@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manjari:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- SeccionEncabezado -->
+    <header class="flex-container">
+      <div style="flex: 0 0 200px">
+        <!-- grow,shrink=0; basis=200px -->
+        <a href="../index.html">
+          <img
+            src="../recursos/icons/picmicros.png"
+            height="100px"
+            alt="mainlogo"
+          />
+        </a>
+      </div>
+
+      <div>
+        <form action="" id="buscarbox">
+          <input
+            type="search"
+            name="ProductName"
+            placeholder="Que deseas buscar?"
+          />
+          <input
+            type="image"
+            src="../recursos/icons/search.svg"
+            height="20px"
+          />
+        </form>
+      </div>
+      <div id="contactbox">
+        <h3>Contáctenos:</h3>
+        <ul>
+          <li>
+            <a href=""
+              ><img src="../recursos/icons/whatsappBN.svg" height="25px" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="../recursos/icons/facebookBN.svg" height="25px" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="../recursos/icons/instagramBN.svg"
+                height="25px"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- FinSeccionEncabezado -->
+    <!-- BarraNav -->
+    <nav>
+      <ul>
+        <li><a href="productos.html">PRODUCTOS</a></li>
+        <li><a href="novedades.html">NOVEDADES</a></li>
+        <li><a href="ofertas.html">OFERTAS</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <!-- FinBarraNav -->
+    <h1>Nuevos artículos en nuestra tienda</h1>
+    <div class="containergrid">
+      <div class="content">
+        <section class="seccion">
+          <h1>Adaptador 12V 1A</h1>
+          <img src="../recursos/novedades/Adapt12V.jpg" width="250px" alt="" />
+          <p>
+            Este adaptador de voltaje cuenta con una entrada de voltaje de 100/240VAC y frecuencias de 50/60 Hz. Entrega una salida de 12VDC a 1A, cuenta con conector jack de salida estandar. - Conector DC3.5 - Protección Interna contra corto circuito,
+          </p>
+        </section><hr>
+        <section class="seccion">
+          <h1 style="font-family: 'Manjari', sans-serif">
+            Computador raspberry pi 400
+          </h1>
+          <img src="../recursos/novedades/RPI400PC.jpg" alt="" />
+          <p>
+            Raspberry Pi 400 es una computadora personal completa basada en
+            Raspberry Pi 4, integrada en un teclado. La Pi 4 es la primera
+            computadora de la Fundación Pi que realmente siente la velocidad de
+            una computadora de escritorio: ¡puede usarla como una computadora
+            para todos los días a un excelente precio!
+          </p>
+        </section><hr>
+        <section class="seccion">
+          <h1>Módulo Micrófono Electrect Con Preamplificador MAX4466</h1>
+          <img src="../recursos/novedades/Electret.jpeg" alt="" />
+          <p>
+            Módulo que incorpora un micrófono de 20KHz amplificado por el MAX4466, un chip diseñado específicamente para la tarea de preamplificar micrófonos. Este op-amp tiene excelente rechazo de ruido por su fuente de poder. En la parte posterior cuenta con un pequeño reostato para ajustar la ganancia de 25x a 125x, la salida del op-amp es riel a riel, por lo que a máxima ganancia puede llegar a 5Vpp. Para su uso se recomienda usar la fuente más estable y filtrada (3.3V), la salida de audio saldrá por el pin OUT, que podrá ser leído con la entrada ADC del microcontrolador que se esté usando. La onda de salida tiene un offset de Vcc/2 y en un ambiente de silencio la salida será un voltaje estable de Vcc/2, es una salida con acoplamiento DC, si la entrada de audio requiere un acoplamiento AC puedes agregar un capacitor de 100uF en serie entre la salida OUT y la entrada del sistema (la salida no está amplificada para una potencia mayor que para los audífonos más pequeños, si necesitas conectarlo a parlantes necesitarás un amplificador).
+          </p>
+        </section>
+      </div>
+      <aside class="sidebar">
+        <h2 style="text-align: center;">Nuevos Sensores</h2>
+        <div>
+          <h4>Sensor de Humedad GY-21</h4>
+          <img src="../recursos/novedades/Humedad.jpg" width="250px" alt="" />
+          <p class="txtDescrip">El modulo GY-21 contiene un sensor HTU21, ideal para la detección de la temperatura y la humedad que se puede conectar a cualquier microcontrolador, Arduino o Raspberry, obteniendo sus datos por medio de protocolo I2C. Este sensor es especial para usarse en estaciones meteorológicas, automatización industrial, equipos médicos.
+          </h3>
+        </div>
+        <div>
+          <h4>Sensor Presión MPS20N0040D 0-40Kpa</h4>
+          <img src="../recursos/novedades/Presion.jpg" alt="" />
+          <p class="txtDescrip">
+            Este producto se trata de un módulo sensor de presión barométrica que está basado en el chip de muestreo AD de alta precisión y un sensor de presión de aire de 0-40KPa. Este producto le permite conectar una manguera de 2.5 mm y detectar el nivel del agua y otras presiones de aire.
+          </p>
+        </div>
+        <div>
+          <h4>Sensor de Efecto Hall Magnético</h4>
+          <img src="../recursos/novedades/SensorHall.jpeg" alt="" />
+          <p class="txtDescrip">
+            Este sensor de campo Magnético lineal se activa cuando detecta un campo magnético proveniente de un imán natural o de algún material ferromagnético, posee un sensor de efecto hall lineal. Así mismo en su salida los da como resultado señales analógicas y digitales.
+
+Una aplicación típica de este sensor es que se puede utilizar para el realizar el cálculo de la velocidad de un mecanismo en rotación o como un interruptor de proximidad. También hay sensores de tipo interruptor, que están limitados a solo intervenir para alcanzar un umbral de intensidad (ver KY003) y, por lo tanto, proporcionan solo un estado de encendido / apagado de salida.
+          </p>
+        </div>
+        <!-- --------------------- -->
+      </aside>
+    </div>
+
+    <div class="flex-container">
+      <div style=" margin: auto; background-color: #BDBDBD;">
+        <ul>
+          <li>
+            <a href="#"></a>
+              <img
+                src="../recursos/imagenes/cncstatic.jpg"
+                width="200px"
+                alt=""
+                class="imghover otros"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../recursos/imagenes/arduinostatic.jpg"
+                width="200px"
+                alt=""
+                class="imghover otros"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../recursos/imagenes/pcbstatic.jpg"
+                width="200px"
+                alt=""
+                class="imghover otros"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../recursos/imagenes/carritostatic.jpg"
+                width="200px"
+                alt=""
+                class="imghover otros"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../recursos/imagenes/elecstatic.jpg"
+                width="200px"
+                alt=""
+                class="imghover otros"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SeccPiePag -->
+    <footer class="flex-container">
+      <div>
+        <p>Tienes preguntas? ... Llámanos</p>
+        <address>
+          +57 318 855 3209<br />
+          picmicros@gmail.com
+        </address>
+      </div>
+
+      <div>
+        Calle 38A Sur # 82A - 43 <br />
+        Bogotá - Colombia
+      </div>
+
+      <div>
+        <p>
+          <i><b>Recibimos pagos electrónicos:</b></i>
+        </p>
+        <ul>
+          <li><img src="../recursos/icons/bancolombia.png" alt="" width="120px" /></li>
+          <li><img src="../recursos/icons/nequi.png" alt="" width="120px" /></li>
+          <li><img src="../recursos/icons/daviplata.png" alt="" width="120px" /></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- FinSeccPiePag -->
+  </body>
+</html>

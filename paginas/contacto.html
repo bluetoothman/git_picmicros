@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Picmicros - Pagina de Contacto</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <a href="../index.html">Regresar al Inicio</a>
+    <hr />
+    <!-- SeccionEncabezado -->
+    <header class="flex-container">
+      <div style="flex: 0 0 200px">
+        <!-- grow,shrink=0; basis=200px -->
+        <a href="../index.html">
+          <img
+            src="../recursos/icons/picmicros.png"
+            height="100px"
+            alt="mainlogo"
+          />
+        </a>
+      </div>
+
+      <div>
+        <form action="" id="buscarbox">
+          <input
+            type="search"
+            name="ProductName"
+            placeholder="Que deseas buscar?"
+          />
+          <input
+            type="image"
+            src="../recursos/icons/search.svg"
+            height="20px"
+          />
+        </form>
+      </div>
+      <div id="contactbox">
+        <h3>Contáctenos:</h3>
+        <ul>
+          <li>
+            <a href=""
+              ><img src="../recursos/icons/whatsappBN.svg" height="25px" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="../recursos/icons/facebookBN.svg" height="25px" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="../recursos/icons/instagramBN.svg"
+                height="25px"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- FinSeccionEncabezado -->
+    </header>        <!-- Barra nav -->
+    <nav>
+      <ul>
+        <li><a href="productos.html">PRODUCTOS</a></li>
+        <li><a href="novedades.html">NOVEDADES</a></li>
+        <li><a href="ofertas.html">OFERTAS</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <!-- FinBarranav-->
+
+    <div class="containergrid">
+
+      <div class="listaproductos">
+        <ul>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/articulos"
+              >Arduino</a
+            >
+          </li>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/conversores"
+              >Componentes</a
+            >
+          </li>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/raspberry---pi"
+              >Comunicaciones</a
+            >
+          </li>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/conversores"
+              >Fuentes y Convertidores</a
+            >
+          </li>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/conversores"
+              >General</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://picmicros0.wixsite.com/picmicros/copia-de-tarjetas-arduino-1"
+              >Kits de Desarrollo</a
+            >
+          </li>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/motores"
+              >Motores y Controladores</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://picmicros0.wixsite.com/picmicros/boards-cnc-grbl-mach"
+              >Robótica</a
+            >
+          </li>
+          <li>
+            <a href="https://picmicros0.wixsite.com/picmicros/sensores"
+              >Sensores</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://picmicros0.wixsite.com/picmicros/copia-de-tarjetas-arduino"
+              >Impresion 3D</a
+            >
+          </li>
+        </ul>
+
+      </div>
+
+      <div id="contactData">
+        <h3> <i>¿Tienes dudas o quieres comunicarte con nosotros?</i> </h3><br>        
+        <h4>Elige el metodo que mas te convenga</h4>
+        <p><img src="../recursos/icons/mail.png" alt="" width="25px">
+          email:  <e-mail>ventas@picmicros.co</e-mail></p>
+        <p><img src="../recursos/icons/whatsapp_logo.png" alt="" width="25px"> Escribenos via Whatsapp</p>
+        <p><img src="../recursos/icons/messenger.png" alt="" width="25px">  Escribenos via Fb Messenger</p>
+      </div>
+
+
+      <div class="mapbox">
+        <h3>Cl. 38a Sur # 82 A- 43, Bogotá, Cundinamarca</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7785824857283!2d-74.1648433856949!3d4.633549996634028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c292c4377ed%3A0x4aad57bb956519c6!2spicmicros%2C%20Electricomp!5e0!3m2!1ses!2sco!4v1630592976524!5m2!1ses!2sco" width="600" height="450" style="padding: 20px; width: 100%; border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <hr />
+<!--****************************************************-->
+    <form action="" class="containergrid" style="grid-column: 1/-1;" id="contactform">
+      <fieldset class="datoscontacto">
+        <legend>Datos de Contacto</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" /> <br />
+
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" placeholder="nombre@ejemplo.com" />
+        <br />
+
+        <label for="contrasenia">Contraseña:</label>
+        <input type="password" name="contrasenia" /><br />
+
+        <label for="comentarios">Comentarios:</label> <br />
+        <textarea name="comentarios" cols="20" rows="4"></textarea>
+      </fieldset>
+
+      <fieldset class="datoscontacto">
+        <legend>Información Opcional</legend>
+        <div>hombre</div>
+        <input type="radio" name="sexo" id="hombre" />
+        <div>mujer</div>
+        <input type="radio" name="sexo" id="mujer" />
+        <div>Prefiero no decirlo</div>
+        <input type="radio" name="sexo" id="x" />
+
+        <div>Acepta términos y condiciones</div>
+        <input type="checkbox" name="acepta" id="1" />
+      </fieldset>
+      
+      <input type="submit" value="Envia tu Consulta" />
+      <input type="reset" value="Limpia formulario" />
+      <!-- Este boton solo sirve con JavasScript-->
+    </form>
+
+    <div class="datoscontacto">
+      <a href="servicios.html">Solicitar Cotización </a>
+      <a href="../index.html">Página de Inicio </a>
+    </div>
+    </div>
+    <!--============================================================================================-->
+    <!-- SeccPiePag -->
+    <footer class="flex-container">
+      <div>
+        <p>Tienes preguntas? ... Llámanos</p>
+        <address>
+          +57 318 855 3209<br />
+          picmicros@gmail.com
+        </address>
+      </div>
+
+      <div>
+        Calle 38A Sur # 82A - 43 <br />
+        Bogotá - Colombia
+      </div>
+
+      <div>
+        <p>
+          <i><b>Recibimos pagos electrónicos:</b></i>
+        </p>
+        <ul>
+          <li><img src="../recursos/icons/bancolombia.png" alt="" width="120px" /></li>
+          <li><img src="../recursos/icons/nequi.png" alt="" width="120px" /></li>
+          <li><img src="../recursos/icons/daviplata.png" alt="" width="120px" /></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- FinSeccPiePag -->
+  </body>
+</html>
